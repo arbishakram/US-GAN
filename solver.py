@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  7 15:05:10 2023
-
-@author: arbish
-"""
-
 from generator import Generator
 from discriminator import Discriminator
 from torch.autograd import Variable
