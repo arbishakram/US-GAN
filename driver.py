@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  7 14:57:36 2023
-
-@author: arbish
-"""
-
 import os
 import argparse
 from solver import Solver
