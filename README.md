@@ -20,3 +20,22 @@ python driver.py --mode test --image_size 128 --c_dim 7 --image_dir ./testing_im
 python driver.py --mode train --image_size 128 --c_dim 7 --image_dir ./dataset/  --model_save_dir ./usgan/models/ --log_dir ./usgan/logs \
                  --sample_dir ./usgan/samples --result_dir ./usgan/results                              
 ```
+
+
+## Citation
+If you find this work useful for your research, please cite our paper:
+```
+@article{akram23usgan,
+  author={Akram, Arbish and Khan, Nazar},
+  journal={Multimedia Tools and Applications}, 
+  title={US-GAN: On the importance of Ultimate Skip Connection for Facial Expression Synthesis}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1007/s11042-023-15268-2}}
+
+```
+
+## Acknowledgement
+
