@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  7 15:03:15 2023
-
-@author: arbish
-"""
-
 from torch.utils import data
 from torchvision import transforms as T
 from torchvision.datasets import ImageFolder
