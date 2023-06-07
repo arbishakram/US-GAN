@@ -38,4 +38,4 @@ If you find this work useful for your research, please cite our paper:
 ```
 
 ## Acknowledgement
-
+This code is based on Yunjey's [StarGAN](https://github.com/yunjey/stargan) with minimal modifications.
