@@ -10,12 +10,13 @@ This repository provides the official implementation of the following paper:
 
 ## Test with Pretrained Model
 ```
-python main.py --test_dataset_dir ./testing_imgs/  --weights_dir ./pre-trained_models/ --model LSRF --image_size 128   \
-               --f 1  --mode test_inthewild --results_dir ./results/                               
+python driver.py --mode test --image_size 128 --c_dim 7 --image_dir ./testing_imgs/ --model_save_dir ./pre-trained_model/ \
+                 --result_dir ./usgan/results                     
+
 ```
 
 ## Train the Model
 ```
-python main.py --train_dataset_dir ./train_dataset/ --weights_dir ./weights/ --model LSRF --image_size 80   \
-               --f 9  --beta 60 --mode train --results_dir ./results/                                
+python driver.py --mode train --image_size 128 --c_dim 7 --image_dir ./dataset/  --model_save_dir ./usgan/models/ --log_dir ./usgan/logs \
+                 --sample_dir ./usgan/samples --result_dir ./usgan/results                              
 ```
