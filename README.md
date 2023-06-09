@@ -17,8 +17,8 @@ python driver.py --mode test --image_size 128 --c_dim 7 --image_dir ./testing_im
 
 ## Train the Model
 ```
-python driver.py --mode train --image_size 128 --c_dim 7 --image_dir ./dataset/  --model_save_dir ./usgan/models/ --log_dir ./usgan/logs \
-                 --sample_dir ./usgan/samples --result_dir ./usgan/results                              
+python driver.py --mode train --image_size 128 --c_dim 7 --batch_size 8 --image_dir ./dataset/  --model_save_dir ./usgan/models/ \
+                 --log_dir ./usgan/logs --sample_dir ./usgan/samples --result_dir ./usgan/results                              
 ```
 
 
